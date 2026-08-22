@@ -1,34 +1,52 @@
-# 👋 Hi, I'm Gianrico Fornari
+# Gianrico Fornari
 
-Computer Science Student | AI Enthusiast | Videomaker | Skier
+Computer Science with an AI focus — 110/110 with honours, University of L'Aquila.
+From September 2026, MSc in Data Science & Engineering at Politecnico di Torino.
 
-## About Me
+Turin, Italy · Open to ML and data engineering internships from September 2026.
 
-Welcome! I’m Gianrico, passionate about technology and creativity. I specialize in:
+## What I work on
 
-- **Programming Languages**: Java, Python, HTML, CSS, JavaScript
-- **Machine Learning & AI**: Building intelligent solutions and exploring new applications
-- **Videomaking**: Crafting stories through video and editing
-- **Skiing**: Chasing adventure and balance on the slopes
+**Explainable AI for graphs.** A benchmark for evaluating natural-language
+explanations of counterfactuals in graph machine learning: an evaluator-agnostic
+framework that measures informativeness by inverse reconstruction — how much of
+the original counterfactual can be recovered from the generated narrative.
+Started as my bachelor's thesis, now a research collaboration with the University
+of L'Aquila under Prof. Francesco Gullo. Paper in preparation.
 
-## 💻 Skills
+The result that made it worth continuing: AI narratives are usually
+under-specified. The model understands the counterfactual's edit set, and then
+fails to say it.
 
-- **Languages**: Java, Python, JavaScript, HTML, CSS
-- **Frameworks & Tools**: ML libraries (TensorFlow, scikit-learn)
-- **Interests**: Artificial Intelligence, Machine Learning, Software Development, Video Production
+## Selected work
 
-## 🎥 Projects & Content
+**[univaq-doc-rag](https://github.com/GianFor/univaq-doc-rag)** — Retrieval over
+university regulations, answering in natural language with the source article
+cited under every claim. Hybrid dense and sparse retrieval, a cross-encoder
+reranker measured and then left switched off, and a low-confidence path that
+declines to answer rather than dressing up the nearest article it found.
+*Python, ChromaDB + BM25, e5 embeddings, custom eval harness.*
 
-I love blending my technical background with my creative side. Check out my work:
+**[Tangentopoli2](https://github.com/GianFor/Tangentopoli2)** — A 2–6 player
+board game with local and AI opponents: core architecture, JavaFX interface,
+turn handling, state saving. *Java, JavaFX, Maven.*
 
-- [LinkedIn Profile](https://www.linkedin.com/in/gianrico-fornari/)
-- Video projects coming soon!
+**Agent systems** — Python agent orchestration for multi-step tasks, tool use and
+API integration, containerised with Docker and deployed on a VPS with webhooks
+inside automated data pipelines.
 
-## 📫 Let's Connect
+## Tools
 
-- LinkedIn: [Gianrico Fornari](https://www.linkedin.com/in/gianrico-fornari/)
-- GitHub: [GianFor](https://github.com/GianFor)
+Python (PyTorch, PyTorch Geometric, Pandas, Agno) · Java · TypeScript, React,
+Node · FastAPI · Docker · SQL · Git, CI/CD
 
----
+## Also
 
-Thanks for visiting my profile! Feel free to explore my repositories and reach out if you’d like to collaborate or chat about AI, coding, videomaking, or skiing.
+Six years as a freelance videomaker, which is where I learned to finish things
+and talk to clients.
+
+## Elsewhere
+
+- Portfolio — https://gianrico.xyz
+- LinkedIn — https://www.linkedin.com/in/gianrico-fornari
+- gianrico.fornari@gmail.com
