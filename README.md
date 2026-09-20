@@ -12,53 +12,41 @@
   <img src="https://img.shields.io/badge/Turin,%20Italy-24292f?style=flat-square&logo=googlemaps&logoColor=white" alt="Turin, Italy">
 </p>
 
-I like building things. Retrieval systems, data pipelines, agentic workflows, research
-benchmarks, a traffic dataset that didn't exist until I started collecting it. I'd rather have a
-rough working thing in front of me than a clean plan for one.
+I build ML and retrieval systems, and I evaluate them.
 
-Then I want to know why it works. If I can't explain a result I don't consider it finished, so I
-go back down into the algorithm until it makes sense. Somewhere along the way most of my projects
-grow a measurement rig that tells me what's real and what to cut.
+Six years as a freelance videomaker before that.
 
-Before any of this I spent six years as a videomaker. That's where I learned to finish.
-
-## What I've built
+## Work
 
 **[univaq-doc-rag](https://github.com/GianFor/univaq-doc-rag).** Retrieval over 148 university
-regulation PDFs. It cites the source article under every claim, and when retrieval is weak it says
-so instead of dressing up the nearest article it found. **0.875 Recall@5**, measured on a
-145-question eval set that I wrote before the system. After that the harness made the calls for me:
-a better embedding model was worth **+13.9 Recall@5**, and the cross-encoder reranker got **cut**
-for losing recall at 24x the latency.
+regulation PDFs, with the source article cited under every claim. **0.875 Recall@5** on a
+145-question eval set. A better embedding model was worth **+13.9 Recall@5**. The cross-encoder
+reranker was cut: lower recall at 24x the latency.
 
-**Reverse Reconstruction.** My BSc thesis, **110/110 with honours**. A benchmark that asks whether
-an LLM's explanation of a graph counterfactual still contains the explanation. Usually it doesn't:
-the model knows what changed and then fails to say it. Three independent evaluators from three
-different providers agree at **r ≥ 0.977**. It's becoming a paper.
+**Reverse Reconstruction.** BSc thesis, **110/110 with honours**. A benchmark for whether an LLM's
+explanation of a graph counterfactual still contains the counterfactual. Three evaluators from
+three providers, **r ≥ 0.977**. Becoming a paper.
 
-**Turin traffic.** A service on my VPS that has been swallowing the city's sensor feed every five
-minutes at **93% coverage**, with a spatio-temporal GNN on top. The data is real, streaming and
-messy, and I collected it myself.
+**Turin traffic.** Ingestion service on a VPS pulling the city's sensor feed every five minutes,
+**93% coverage**. Spatio-temporal GNN on top for short-term forecasting.
 
-**Agent infrastructure.** Event-driven agentic workflows running in production on a VPS since 2025:
-stateful multi-step tasks, tool calling, webhook-triggered pipelines, all containerised. I wrote the
-orchestration by hand instead of assembling it low-code.
+**Agent infrastructure.** Event-driven agentic workflows on a VPS since 2025: stateful multi-step
+tasks, tool calling, webhook-triggered pipelines, containerised.
 
-**20,000+ users.** Two years keeping the University of L'Aquila's web platforms alive and
-redesigning **7 department portals** end to end: legacy PHP, production incidents, WCAG 2.1 AA.
-It's the least glamorous thing on this list and it taught me more than the rest.
+**UnivAQ web platforms.** Two years, **20,000+ active users**. **7 department portals** redesigned
+and deployed end to end. Legacy PHP, WCAG 2.1 AA.
 
 ## Now
 
 - **MSc in Data Science & Engineering**, Politecnico di Torino, 2026 to 2028.
-- **Research assistant** at the University of L'Aquila, working on XAI for graph neural networks. Paper in preparation.
+- **Research assistant** at the University of L'Aquila, XAI for graph neural networks. Paper in preparation.
 - **Open to Summer 2027 internships** in machine learning, research engineering and data engineering.
 
-## Also true
+## Also
 
-- **Six years as a freelance videomaker and photographer.** I learned to ship on a deadline and talk to clients long before I learned to train a model.
-- **gianrico.csv**, where I explain AI and data science on TikTok and Instagram.
-- **Elected student representative** for my degree course and for the DISIM department, Student Liaison for the EULiST alliance, and part of the team that ran the EULiST Student Conference 2025, with students from 10 partner universities.
+- Freelance videomaker and photographer since 2020.
+- **gianrico.csv**, AI and data science on TikTok and Instagram.
+- Elected student representative for my degree course and for the DISIM department, Student Liaison for the EULiST alliance, organising team of the EULiST Student Conference 2025.
 
 ## Toolbox
 
